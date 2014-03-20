@@ -56,7 +56,7 @@ $result4 = mysql_query("SELECT * FROM book where username='C++'");
 				echo '<p><div class="bookcontainerwrapp"><a href="#" class="book123">'.$row4['book'].'</a>';
 				echo '<a href="#" class="book123">'.$row4['author'].'</a>';
 				echo '<a href="#" class="book1234">'.$size. ' MB</a>';
-				echo '<a href="./uploads/C++/'.$row4['book'].'" class="bookdownload"> Download</a></div></p>';
+				echo '<a href="./uploads/C++/'.$row4['book'].'" class="bookdownload"> Download Now</a></div></p>';
 			echo '<br />';
 			}
 echo'
